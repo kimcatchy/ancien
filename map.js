@@ -12,7 +12,7 @@ var interactive_map = new InteractiveMap('map', {
     // This will limit automatic zooming to this zoom level
     max_good_zoom: 3,
     // This is the max zoom the map will allow
-    max_map_zoom: 3,
+    max_map_zoom: 4,
     website_source: 'https://github.com/interactive-game-maps/template',
     website_subdir: 'ancien',
     attribution: `
@@ -28,7 +28,7 @@ var interactive_map = new InteractiveMap('map', {
 // https://github.com/commenthol/gdal2tiles-leaflet
 // `./gdal2tiles.py -l -p raster -w none -z 3-5 full_map.jpg map_tiles`
 interactive_map.addTileLayer('Ingame map', {
-    minNativeZoom: 2,
+    minNativeZoom: 3,
     maxNativeZoom: 4,
     attribution: 'Map from <a href="https://www.example.com/index.html">$source</a>'
 });
