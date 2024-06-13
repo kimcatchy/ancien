@@ -3,8 +3,8 @@
       <Title>ancien.png</Title>
       <Abstract></Abstract>
       <SRS></SRS>
-      <BoundingBox minx="-820000.00000000000000" miny="-820000.00000000000000" maxx="205000.00000000000000" maxy="205000.00000000000000"/>
-      <Origin x="-307,500.00000000000000" y="-307,500.00000000000000"/>
+      <BoundingBox minx="0.00000000000000" miny="-10240.00000000000000" maxx="10240.00000000000000" maxy="0.00000000000000"/>
+      <Origin x="0.00000000000000" y="-10240.00000000000000"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="raster">
         <TileSet href="3" units-per-pixel="8.00000000000000" order="3"/>
